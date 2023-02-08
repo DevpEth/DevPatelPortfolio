@@ -20,4 +20,9 @@ var links = document.querySelectorAll('.left-menu a');
         window.location.href = "#aboutme";
     }
 
-
+  
+  window.onload = function() {
+    document.querySelector('#aboutme').scrollIntoView({ 
+      behavior: 'smooth' 
+    });
+  }

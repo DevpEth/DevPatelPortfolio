@@ -1,13 +1,13 @@
 html, body {
-    margin: 0;
-    padding: 0;
     font-family: 'Montserrat', sans-serif;
-    scroll-behavior: smooth;
     background: #3e4c59;
+    scroll-behavior: smooth;
 }
 
 body {
-    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
 }
 
 /* NavBar Menu Content */
@@ -99,7 +99,7 @@ body {
 }
 
 .section1 {
-    background-color:  #3e4c59;
+    background-color:  #000;
     color: #fff;
 }
 
@@ -174,7 +174,7 @@ body {
 }
 
 .left-menu .linkedin img {
-    filter: brightness(0) invert(1);
+    
     margin-top: 25px;
     margin-bottom: 0px;
     border-radius: 7px;
@@ -241,9 +241,9 @@ hr {
   
 .about-photo {
     width: 60%;  
-    height: 60%;
+    height: 70%;
     margin-left: 200px;
-    margin-top: 125px;
+    margin-top: 135px;
     border: 8px  black;
     border-radius: 30px;
     box-shadow: 5px 6px 20px #000, inset 0px 0px 0px #000;
